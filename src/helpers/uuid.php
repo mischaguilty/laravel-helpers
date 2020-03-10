@@ -2,10 +2,7 @@
 
 use Illuminate\Support\Str;
 
-function uuid($ordered = false)
+function uuid()
 {
-    if ($ordered == true)
-        return Str::orderedUuid();
-
     return (string) Str::uuid();
 }
