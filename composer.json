@@ -1,0 +1,49 @@
+{
+    "name": "riipandi/laravel-helpers",
+    "description": "A collection of awesome helpful functions for Laravel",
+    "keywords": [ "laravel", "helpers" ],
+    "homepage": "https://github.com/riipandi/laravel-helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Caleb Porzio",
+            "email": "calebporzio@gmail.com"
+        },
+        {
+            "name": "Aris Ripandi",
+            "email": "aris@rcs.web.id"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.9",
+        "illuminate/support": "5.7.*|5.8.*|^6.0|^7.0",
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Riipandi\\LaravelHelpers\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Riipandi\\LaravelHelpers\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Riipandi\\LaravelHelpers\\LaravelHelpersServiceProvider"
+            ]
+        }
+    }
+}
