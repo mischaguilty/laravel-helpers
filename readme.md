@@ -78,15 +78,6 @@ echo money(12.75, true, 'en_GB'); // echos "£12.75"
 // Note: unless specified otherwise, money() will detect the current locale.
 ```
 
-
-**ok**
-
-Shortcut for `response('', 204)`. When you don't have anything to return from an endpoint, but you want to return success.
-```php
-return ok();
-```
-
-
 **stopwatch**
 
 Returns the amount of time (in seconds) the provided callback took to execute. Useful for debugging and profiling.
@@ -95,7 +86,6 @@ stopwatch(function () {
     sleep(2);
 }); // returns "2.0"
 ```
-
 
 **str_between**
 
@@ -150,7 +140,6 @@ str_wrap('thing', '--'); // returns "--thing--"
 Str::wrap('thing', '--'); // returns "--thing--"
 ```
 
-
 **swap**
 
 This function swaps the values of two variables.
@@ -166,7 +155,6 @@ if ($endDate < $startDate) {
 echo $startDate; // prints "2020-01-01"
 echo $endDate; // prints "2040-01-01"
 ```
-
 
 **tinker**
 
