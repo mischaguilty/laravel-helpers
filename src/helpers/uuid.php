@@ -4,7 +4,7 @@ use Illuminate\Support\Str;
 
 function uuid($ordered = false)
 {
-    $str = ($ordered == true) ? Str::orderedUuid() : Str::uuid();
+    ($ordered == true) ?: return Str::orderedUuid();
 
-    return (string) $str;
+    return (string) Str::uuid();
 }
