@@ -1,8 +1,8 @@
 {
-    "name": "riipandi/laravel-helpers",
+    "name": "mischaguilty/laravel-helpers",
     "description": "A collection of awesome helpful functions for Laravel",
     "keywords": [ "laravel", "helpers" ],
-    "homepage": "https://github.com/riipandi/laravel-helpers",
+    "homepage": "https://github.com/mischaguilty/laravel-helpers",
     "license": "MIT",
     "authors": [
         {
@@ -12,6 +12,10 @@
         {
             "name": "Aris Ripandi",
             "email": "aris@rcs.web.id"
+        },
+        {
+            "name": "Mischa Guilty",
+            "email": "go.myke@gmail.com"
         }
     ],
     "require": {
