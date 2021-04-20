@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "*",
         "robinvdvleuten/ulid": "^4.0"
     },
     "require-dev": {
